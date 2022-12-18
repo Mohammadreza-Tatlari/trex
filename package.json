@@ -1,0 +1,17 @@
+{
+  "name": "trexbot",
+  "version": "1.0.0",
+  "description": "telegram game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "mohammadreza & amirabbas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "node-telegram-bot-api": "^0.60.0"
+  }
+}
