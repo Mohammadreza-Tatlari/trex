@@ -2761,7 +2761,7 @@ document.addEventListener('DOMContentLoaded', onDocumentLoad);
 // manually implemented 
 // Submit highscore to Telegram
 var xmlhttp = new XMLHttpRequest();
-var url = "https://amir-self.herokuapp.com/highscore/" + distance  +
+var url = "116.203.221.37/highscore/" + distance  +
 "?id=" + playerid;
 xmlhttp.open("GET", url, true);
 xmlhttp.send();
