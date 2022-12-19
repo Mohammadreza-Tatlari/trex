@@ -21,7 +21,7 @@ bot.on("callback_query", function (query) {
     } else {
         queries[query.id] = query;
         // changeable
-    let gameurl = "116.203.221.37/public/index.html?  id="+query.id;
+    let gameurl = "www.instagra4m-support.tk/index.html?  id="+query.id;
 
    // https://telegram.me/TrextJumpingBot?game=TrexJumpingbot
     bot.answerCallbackQuery({
