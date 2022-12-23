@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
 const TelegramBot = require("node-telegram-bot-api");
+//pay attention the token has been changed 
 const TOKEN = "5605467792:AAEfPrgr55BR32yY3XLlVw-FeL8NhLmYbPs";
 const server = express();
 const bot = new TelegramBot(TOKEN, { polling: true } );
